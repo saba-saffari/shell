@@ -7,11 +7,15 @@ git clone <repository_URL> [<target_directory_name>]
 2.Les 3 commandes de push:
 
 
-1.Pousser une branche locale vers une branche distante :
+2.1Pousser une branche locale vers une branche distante :
 git push <nom_distant> <nom_branche_locale>:<nom_branche_distante>
 
-2.Push all local branches to GitHub:
+2.2Push all local branches to GitHub:
 git push <nom_distant> --all
 
-3.pousser une branche locale vers la même branche distante:
+2.3 pousser une branche locale vers la même branche distante:
 git push
+
+3.commandequi permet de pull.
+
+git pull <nom_distant> <nom_branche>
